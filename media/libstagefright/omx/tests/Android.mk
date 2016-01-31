@@ -8,8 +8,8 @@ LOCAL_SHARED_LIBRARIES := \
 	libstagefright libbinder libmedia libutils liblog libstagefright_foundation
 
 LOCAL_C_INCLUDES := \
-	$(TOP)/frameworks/av-caf/media/libstagefright \
-	$(TOP)/frameworks/native-caf/include/media/openmax
+	$(TOP)/frameworks/av/media/libstagefright \
+	$(TOP)/frameworks/native/include/media/openmax
 
 LOCAL_CFLAGS += -Werror -Wall
 LOCAL_CLANG := true
@@ -36,7 +36,7 @@ LOCAL_SHARED_LIBRARIES := \
 	libutils \
 
 LOCAL_C_INCLUDES := \
-	frameworks/av-caf/media/libstagefright/omx \
+	frameworks/av/media/libstagefright/omx \
 
 LOCAL_CFLAGS += -Werror -Wall
 LOCAL_CLANG := true

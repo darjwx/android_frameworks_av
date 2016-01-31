@@ -15,8 +15,8 @@ LOCAL_SHARED_LIBRARIES := \
 	libutils \
 
 LOCAL_C_INCLUDES := \
-	frameworks/av-caf/include \
-	frameworks/av-caf/media/libmediaplayerservice \
+	frameworks/av/include \
+	frameworks/av/media/libmediaplayerservice \
 
 LOCAL_CFLAGS += -Werror -Wall
 LOCAL_CLANG := true

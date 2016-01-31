@@ -73,7 +73,7 @@ LOCAL_SHARED_LIBRARIES:= \
 LOCAL_C_INCLUDES += \
     system/media/camera/include \
     system/media/private/camera/include \
-    frameworks/native-caf/include/media/openmax \
+    frameworks/native/include/media/openmax \
     external/jpeg
 
 

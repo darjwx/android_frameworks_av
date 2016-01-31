@@ -32,7 +32,7 @@ LOCAL_SRC_FILES:=               \
     StateQueue.cpp
 
 LOCAL_C_INCLUDES := \
-    $(TOPDIR)frameworks/av-caf/services/audiopolicy \
+    $(TOPDIR)frameworks/av/services/audiopolicy \
     $(TOPDIR)external/sonic \
     $(call include-path-for, audio-effects) \
     $(call include-path-for, audio-utils)

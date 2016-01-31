@@ -23,11 +23,11 @@ LOCAL_SRC_FILES += \
 endif
 
 LOCAL_C_INCLUDES := \
-    $(TOPDIR)frameworks/av-caf/services/audioflinger \
+    $(TOPDIR)frameworks/av/services/audioflinger \
     $(call include-path-for, audio-effects) \
     $(call include-path-for, audio-utils) \
-    $(TOPDIR)frameworks/av-caf/services/audiopolicy/common/include \
-    $(TOPDIR)frameworks/av-caf/services/audiopolicy/engine/interface \
+    $(TOPDIR)frameworks/av/services/audiopolicy/common/include \
+    $(TOPDIR)frameworks/av/services/audiopolicy/engine/interface \
 
 LOCAL_SHARED_LIBRARIES := \
     libcutils \
@@ -75,7 +75,7 @@ LOCAL_REQUIRED_MODULES := \
     audio_policy_criteria.conf \
 
 LOCAL_C_INCLUDES += \
-    $(TOPDIR)frameworks/av-caf/services/audiopolicy/engineconfigurable/include \
+    $(TOPDIR)frameworks/av/services/audiopolicy/engineconfigurable/include \
 
 LOCAL_SHARED_LIBRARIES += libaudiopolicyengineconfigurable
 
@@ -86,8 +86,8 @@ LOCAL_SHARED_LIBRARIES += libaudiopolicyenginedefault
 endif
 
 LOCAL_C_INCLUDES += \
-    $(TOPDIR)frameworks/av-caf/services/audiopolicy/common/include \
-    $(TOPDIR)frameworks/av-caf/services/audiopolicy/engine/interface \
+    $(TOPDIR)frameworks/av/services/audiopolicy/common/include \
+    $(TOPDIR)frameworks/av/services/audiopolicy/engine/interface \
 
 LOCAL_STATIC_LIBRARIES := \
     libmedia_helper \
@@ -111,8 +111,8 @@ LOCAL_STATIC_LIBRARIES := \
     libaudiopolicycomponents
 
 LOCAL_C_INCLUDES += \
-    $(TOPDIR)frameworks/av-caf/services/audiopolicy/common/include \
-    $(TOPDIR)frameworks/av-caf/services/audiopolicy/engine/interface \
+    $(TOPDIR)frameworks/av/services/audiopolicy/common/include \
+    $(TOPDIR)frameworks/av/services/audiopolicy/engine/interface \
 
 LOCAL_MODULE:= libaudiopolicymanager
 
